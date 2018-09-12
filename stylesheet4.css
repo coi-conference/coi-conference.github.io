@@ -66,6 +66,10 @@ li {
   padding-left: 3em;
 }
 
+.register a {
+  font-size: 18px;
+}
+
 .footer {
   bottom: 0;
   height: 100px;
