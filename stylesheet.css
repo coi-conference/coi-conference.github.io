@@ -58,6 +58,62 @@ li {
   margin:auto;
 }
 
+.program-button,
+.abstract-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+}
+
+.program-button::before,
+.program-button::after,
+.abstract-button::before,
+.abstract-button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.program-button,
+.program-button::before,
+.program-button::after,
+.abstract-button,
+.abstract-button::before,
+.abstract-button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.program-button,
+.abstract-button {
+  position: center;
+  background-color: #2f4f4f;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 40px;
+  -webkit-transition: none;
+  transition: none;
+  box-shadow: 0 3px 0 #0e8c73;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.program-button:hover,
+.abstract-button:hover {
+  background-color: #008080;
+  box-shadow: 0 3px 0 #23a188;
+}
+.program-button:active,
+.abstract-button:active {
+  top: 3px;
+  box-shadow: none;
+}
+
 .top-left {
   float: left;
   width: 800px;
