@@ -136,3 +136,7 @@ table.program-table td:nth-child(1){
 .greeting-text {
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
+
+.program-note {
+    font-size: 14px;
+}
