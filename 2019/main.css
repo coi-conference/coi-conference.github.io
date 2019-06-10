@@ -127,6 +127,12 @@ table.program-table td:nth-child(1){
     width: 120px;
 }
 
+#greeting-div {
+    background-color: rgba(200,230,255,0.2);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
 .greeting-text {
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
