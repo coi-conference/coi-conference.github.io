@@ -123,7 +123,8 @@ table.program-table td, table.program-table th {
 }
 
 table.program-table td:nth-child(1){
-    width: 150px;
+    font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+    width: 120px;
 }
 
 .greeting-text {
