@@ -1,158 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="main.css">
-
-    <title>第2回COI学会</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="COI学会は、各研究者がどのような専門でどのような研究を行っているかについて研究者同士でしっかりと議論する場が必要であるという研究者の声を受け、2018年度に第1回大会をスタートしました。">
+	<meta name="viewport" content="width=device-width">
+	<title>第2回COI学会</title>
+	<link rel="stylesheet" media="all" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 
-<body class='home-bg'>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">第2回COI学会</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<body id="top">
+	<div id="wrapper">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="program.html">プログラム</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="apply.html">申込み</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">要旨（後日公開）</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="access.html">アクセス</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav float-lg-right">
-                <li class="nav-item navbar-small">
-                    2019.9.19-20 @ 日本科学未来館（お台場）
-                </li>
-                </span>
-            </ul>
+		<div id="sidebar">
+			<div id="sidebarWrap">
+				<h1></h1>
+				<nav id="mainnav">
+					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+					<div class="panel">
+						<ul>
+							<li><a href="#top">TOP</a></li>
+							<li><a href="#sec01">MESSAGE</a></li>
+							<li><a href="#sec02">PROGRAM</a></li>
+							<li><a href="#sec03">APPLY</a></li>
+							<li><a href="#sec04">CONTACT</a></li>
+							<li><a href="#sec05">ACCESS</a></li>
+						</ul>						
+					</div>
+				</nav>
+			</div>
+		</div>
 
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <div class='imgbox'>
-                    <!-- <img class='center-fit' src="img/odaiba.jpg" alt=""> -->
-                </div>
-                <section>
-                    <h2>第2回COI学会 開催概要</h2>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <table class='general-info'>
-                    <thead></thead>
-                    <tbody>
-                        <tr>
-                            <td>会議名称</td>
-                            <td>第2回COI学会</td>
-                        </tr>
-                        <tr>
-                            <td>開催日時</td>
-                            <td>2019年9月19日(木)，20日(金)</td>
-                        </tr>
-                        <tr>
-                            <td>会場</td>
-                            <td>日本科学未来館（東京都江東区青海2丁目3-6）</td>
-                        </tr>
-                        <tr>
-                            <td>参加費</td>
-                            <td>無料（懇親会は有料）</td>
-                        </tr>
-                        <tr>
-                            <td>スケジュール<br>（予定）</td>
-                            <td>
-                                <ul>
-                                    <li>6月上旬　招待・一般講演、参加申込開始</li>
-                                    <li>7月31日　講演申込締切</li>
-                                    <li>8月初旬　プログラム・アブストラクト公開</li>
-                                    <li>8月31日　参加申込締切</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>連絡先</td>
-                            <td>弘前大学COI研究推進機構<br>
-                                〒036-8562 青森県弘前市在府町5<br>
-                                TEL: 0172-39-5538 / FAX: 0172-39-5205<br>
-                                E-mail：coi_info <アット> hirosaki-u.ac.jp
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6">
-                <table class='general-info'>
-                    <thead></thead>
-                    <tbody>
-                        <tr>
-                            <td>運営主体</td>
-                            <td>
-                                <dl>
-                                    <dt>主催</dt>
-                                    <dd>弘前大学COI拠点，東北大学COI拠点，JST</dd>
-                                    <dt>発起人</dt>
-                                    <dd>弘前大学COI拠点 川谷健一（会頭）<br>東北大学COI拠点 吉田慎哉,甲斐洋行,井上久美　<br>大阪大学COI拠点 山崎聖司<br>山形大学COI拠点
-                                        干場隆志
-                                    </dd>
-                                </dl>
+		<div id="content">
+			<p id="mainimg"><img src="img/mainimg.jpg" alt=""></p>
+			<!-- MESSAGE -->
+			<section id="sec01">
+				<header>
+					<h2><span>MESSAGE</span></h2>
+				</header>
+				<div class="innerS">
+　COI学会は、各研究者がどのような専門でどのような研究を行っているかについて研究者同士でしっかりと議論する場が必要であるという研究者の声を受け、スタートしました。　第2回大会も皆さまの研究への新たな気づきや共同研究の開始へつながる場となるよう、多くのご参加をお待ちしております。
+				</div>
+			</section>
+			<!-- // MESSAGE -->
 
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12" id='greeting-div'>
-                <h3>会頭挨拶</h3>
-                <div class='greeting-text'>
-                    <p>　COIプログラムも7年目を迎え、各COI拠点から様々な社会実装の成果が創出されつつありますが、プログラムが目指す「革新的なイノベーションを“連続的に”創出するイノベーションプラットフォームの整備」という観点においては、各COI拠点間の研究者が有する「知」の連携・融合が今後更に重要となると考えています。
-                    </p>
-                    <p>　研究者同士の交流に焦点を置いたイベントとして、2018年10月25日・26日に第1回COI学会を企画・開催しました。当日を迎えるまでは不安も有りましたが、会場では異分野の研究者同士で活発な議論がかわされ、結果として新たな共同研究へと繋がった事例も複数ありました。終了後のアンケートにおいても、多数の方から「また参加したい」とのお言葉をいただき、昨年に引き続き今年も第2回COI学会として企画・開催することになりました。
-                    </p>
-                    <p>　研究者同士の交流の場としては既存の学会もありますが、異分野の研究者と交流・議論できる場というのはそれほど多くないと感じています。今回の学会では、COIプログラムに限らず他の国プロジェクト（リサーチコンプレックス、OPERA、イノベーションハブ）の研究者にも参加してもらう予定です。今回の学会が共同研究に限らず、自身の研究の新たな展開や気付きへとつながり、イノベーション創出に結びついていくことを期待しています。
-                    </p>
-                    <p style='text-align: right;'>
-                        第2回COI学会　会頭　弘前大学COI研究推進機構　川谷健一
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+<img src="img/subimg.jpg" alt="">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+			<!-- PROGRAM -->
+			<section id="sec02">
+				<header>
+					<h2><span>PROGRAM</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col4">
+						<li>
+							<p class="img"><a href="greeting.html"><img src="img/logo01.png" width="168" height="168" alt=""></a></p>
+							<p></p>
+						</li>
+						<li>
+							<p class="img"><a href="program.html"><img src="img/logo02.png" width="168" height="168" alt=""></a></p>
+							<p></p>
+						</li>
+						<li>
+							<p class="img"><img src="img/logo03.png" width="168" height="168" alt=""></p>
+							<p>準備中。公開までしばらくお待ちください。</p>
+						</li>
+						
+					</ul>
+				</div>
+			</section>
+			<!-- // PROGRAM -->
+			<!-- APPLY -->
+			<section id="sec03">
+				<header>
+					<h2><span>APPLY</span></h2>
+				</header>
+				<div class="inner">
+					<div class="article">
+						<img src="img/fortunecat.jpg"  width="370" height="247" alt="">
+<p><b>発表申込み</b><br>発表申込みは以下のオンラインフォームからお願いします。<a href="https://docs.google.com/forms/d/e/1FAIpQLSfK8IH0U2cJQShoFSmxndV74Jsi1TlkEY5JQn1OPN0w28xKUA/viewform">発表申込みフォーム</a>（締切：7月31日）
+<br>・後日A4サイズ1ページの要旨PDFを提出していただきます。<br>・発表申込みされた方は以下の聴講申込みは必要ありません。</p>
+					
+<p><b>聴講申込み</b>
+<br>聴講のみの方は、以下のフォームからご登録お願いします。<a href="https://docs.google.com/forms/d/e/1FAIpQLSeS-9rtBabyXZ_Fna-v6AGSWE3ki5DMtzD2WGWteGwPc1Zkww/viewform">聴講申込みフォーム</a>（締切：7月31日）</p>
+					</div>
+				</div>
+			</section>
+			<!-- // APPLY -->
+			<!-- CONTACT -->
+			<section id="sec04">
+				<header>
+					<h2><span>CONTACT</span></h2>
+				</header>
+				<div class="inner">
+					<div class="article">
+						<img src="img/hirosakicoi.png"   width="350" height="150.37" alt="">
+						<p><b>　弘前大学ＣＯＩ研究推進機構</b><br>　〒036-8562 青森県弘前市在府町5<br>　TEL: 0172-39-5538 / FAX: 0172-39-5205<br>　E-mail：<a href="mailto:coi_info@hirosaki-u.ac.jp">coi_info＠hirosaki-u.ac.jp</a><br> 　クリックするとメールソフトが起動します。</p>
+					</div>					
+				</div>
+			</section>
+			<!-- // CONTACT -->
+			<!-- ACCESS -->
+			<section id="sec05">
+				<header>
+					<h2><span>ACCESS</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col2">
+						<li>
+							<p><b>日本科学未来館</b><br>東京都江東区青海2-3-6</p>
+							
+						</li>
+						<li>
+							<div id="map">
+								<!-- GOOGLE MAP -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.3404669333027!2d139.7742913011951!3d35.61933228011157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fef478fdcf%3A0xf6b165739f8c89a0!2sNational+Museum+of+Emerging+Science+and+Innovation.+Miraikan!5e0!3m2!1sen!2sjp!4v1560929996722!5m2!1sen!2sjp" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<!-- // GOOGLE MAP -->
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // ACCESS -->
+<center>
+<a href="http://coi.hirosaki-u.ac.jp/web/index.html"><img src="img/hirosakicoi2.png"  width="139.66" height="60" alt=""></a>　　
+<a href="http://www.jst.go.jp/coi/index.html"><img src="img/coi.png"  width="80" height="58.27" alt=""></a>　　
+<a href="http://www.jst.go.jp/"><img src="img/jst.png"  width="258.33" height="50" alt=""></a>
+</center>
+			<footer id="footer">
+			</footer>
+
+		</div>
+	</div>
 
 </body>
-
 </html>
