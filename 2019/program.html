@@ -1,177 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="main.css">
-
-    <title>プログラム - 第2回COI学会</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="COI学会は、各研究者がどのような専門でどのような研究を行っているかについて研究者同士でしっかりと議論する場が必要であるという研究者の声を受け、2018年度に第1回大会をスタートしました。">
+	<meta name="viewport" content="width=device-width">
+	<title>第2回COI学会</title>
+	<link rel="stylesheet" media="all" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 
-<body class='home-bg'>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">第2回COI学会</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">ホーム <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">プログラム</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="apply.html">申込み</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">要旨（後日公開）</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="access.html">アクセス</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav float-lg-right">
-                <li class="nav-item navbar-small">
-                    2019.9.19-20 @ 日本科学未来館（お台場）
-                </li>
-                </span>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-
-        <div class="row">
-            <div class="col-sm">
-                <div class='imgbox'>
-                    <!-- <img class='center-fit' src="img/odaiba.jpg" alt=""> -->
+<body id="PROGRAM">
+	<div id="wrapper">
+		<div id="sidebar">
+			<div id="sidebarWrap">
+				<h1></h1>
+				<nav id="mainnav">
+					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+					<div class="panel">
+						<ul>
+							<li><a href="index.html">TOP</a></li>
+							<li><a href="index.html#sec01">MESSAGE</a></li>
+							<li><a href="index.html#sec02">PROGRAM</a></li>
+							<li><a href="index.html#sec03">APPLY</a></li>
+							<li><a href="index.html#sec04">CONTACT</a></li>
+							<li><a href="index.html#sec05">ACCESS</a></li>
+						</ul>						
+					</div>
+				</nav>
+			</div>
                 </div>
+
+        </div>
+
                 <section>
-                    <h2>プログラム</h2>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <table class='program-table'>
-                    <thead>
-                        <tr>
-                            <th colspan='2'>
-                                【1日目】 9月19日（木）
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class='program-list'>
-                        <tr>
-                            <td>12:00 - 12:10</td>
-                            <td>会頭挨拶</td>
-                        </tr>
-                        <tr>
-                            <td>12:10 - 12:20</td>
-                            <td>概要説明</td>
-                        </tr>
-                        <tr>
-                            <td>12:20 - 13:00</td>
-                            <td>Keynote Presentation (1)</td>
-                        </tr>
-                        <tr>
-                            <td>13:00 - 13:55</td>
-                            <td>一般講演 (1)</td>
-                        </tr>
-                        <tr>
-                            <td>14:10 - 15:05</td>
-                            <td>招待講演 (1)</td>
-                        </tr>
-                        <tr>
-                            <td>15:20 - 16:15</td>
-                            <td>招待講演 (2)</td>
-                        </tr>
-                        <tr>
-                            <td>16:25 - 18:00</td>
-                            <td>ポスターセッション (1)</td>
-                        </tr>
-                        <tr>
-                            <td>18:30 - 20:30</td>
-                            <td>懇親会</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <table class='program-table'>
-                    <thead>
-                        <tr>
-                            <th colspan='2'>
-                                【2日目】 9月20日（金）
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class='program-list'>
-                        <tr>
-                            <td><span style='visibility: hidden;'>0</span>8:30 - <span
-                                    style='visibility: hidden;'>0</span>9:00</td>
-                            <td>Keynote Presentation (2)</td>
-                        </tr>
-                        <tr>
-                            <td><span style='visibility: hidden;'>0</span>9:15 - 10:00</td>
-                            <td>一般講演 (2)</td>
-                        </tr>
-                        <tr>
-                            <td>10:15 - 11:10</td>
-                            <td>招待講演 (3)</td>
-                        </tr>
-                        <tr>
-                            <td>11:20 - 12:20</td>
-                            <td>ポスターセッション (2)</td>
-                        </tr>
-                        <tr>
-                            <td>12:30 - 12:45</td>
-                            <td>閉会</td>
-                        </tr>
-                    </tbody>
-                    <thead class='program-note'>
-                        <tr>
-                            <th colspan='2'>
-                                ※発表時間
-                            </th>
-                        </tr>
+		<header>
+		<h2><span>プログラム</span></h2>
+		</header>
+  <div class="inner">
 
-                    </thead>
-                    <tbody class='program-note'>
-                        <tr>
-                            <td>一般講演</td>
-                            <td>プレゼン1分 ＋ ポスター発表</td>
-                        </tr>
-                        <tr>
-                            <td>招待講演</td>
-                            <td>プレゼン8分 ＋ ポスター発表</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    </div>
+<table class="brwsr2">
+<tbody>
+<tr>
+<th>【1日目】 9月19日（木）</th>
+<td class="data fst">
+　　12:00 - 12:10<br>
+　　12:10 - 12:20<br>
+　　12:20 - 13:00<br>
+　　13:00 - 13:55<br>
+　　14:10 - 15:05<br>
+　　15:20 - 16:15<br>
+　　16:25 - 18:00<br>
+　　18:30 - 20:30
+</td>
+<td class="data">
+会頭挨拶<br>
+概要説明<br>
+Keynote Presentation（１）<br>
+一般講演（１）<br>
+招待講演（１）<br>
+招待講演（２）<br>
+ポスターセッション（１）<br>
+懇親会<br>
+</td>
+</tr>
+<tr>
+<td class="bar" colspan="6"></td>
+</tr>
+<tr>
+<th>【2日目】 9月20日（金）</th>
+<td class="data fst">
+　　 8:30 - 9:00<br>
+　　 9:15 - 10:00<br>
+　　10:15 - 11:10<br>
+　　11:20 - 12:20<br>
+　　12:30 - 12:45<br>
+</td>
+<td class="data">
+Keynote Presentation（２）<br>
+一般講演（２）<br>
+招待講演（３）<br>
+ポスターセッション（２）<br>
+閉会<br>
+</td>
+</tr>
+<tr>
+<td class="bar" colspan="6"></td>
+</tr>
+<tr>
+<th>発表時間</th>
+<td class="data fst">
+　　一般講演<br><br>
+　　招待講演
+</td>
+<td class="data">
+プレゼン1分 ＋ ポスター発表<br><br>
+プレゼン8分 ＋ ポスター発表
+</td>
+</tr>
+</tbody>
+</table>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  </div>
+                </section><br><br>
+
+<center>
+<a href="http://coi.hirosaki-u.ac.jp/web/index.html"><img src="img/hirosakicoi2.png"  width="139.66" height="60" alt=""></a>　　
+<a href="http://www.jst.go.jp/coi/index.html"><img src="img/coi.png"  width="80" height="58.27" alt=""></a>　　
+<a href="http://www.jst.go.jp/"><img src="img/jst.png"  width="258.33" height="50" alt=""></a>
+</center>
+			<footer id="footer">
+			</footer>
+
+		</div>
+	</div>
 
 </body>
-
 </html>
