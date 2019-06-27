@@ -1,0 +1,52 @@
+﻿/* 共通
+------------------------------------------------------------*/
+h1, h2{
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+img{
+	width: 60%;
+	height: auto;
+}
+
+section{
+  clear: both;
+}
+
+section h2{
+	width: 60%;
+	margin: 70px auto;
+	font-size: 22px;
+	font-weight:normal;
+	text-align: center;
+}
+
+section h2 span {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #000;
+}
+
+.inner{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#sec01 .inner, #sec02 .inner, #sec03 .inner, #sec04 .inner{
+	border-bottom: 1px solid #a0a0a0;
+}
+
+.innerS{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+
+section h3{
+	font-size: 20px;
+	font-weight:normal;
+}
+
+
+
