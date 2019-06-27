@@ -36,19 +36,19 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 /* ヘッダー
 ------------------------------------------------------------*/
-#mainnavi ul {
+#mainnav ul {
 	overflow: hidden;
 	margin: 0 auto;
 	padding: 0 3%;
 	width: 94%;
 	max-width: 960px; 
 }
-#mainnavi ul li {
+#mainnav ul li {
 	position: relative;
 	float: left;
 	width: 20%;
 }
-#mainnavi ul li a {
+#mainnav ul li a {
 	display: block;
 	padding: 17px 5%;
 	width: 90%;
