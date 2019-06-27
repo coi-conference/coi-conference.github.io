@@ -1,4 +1,25 @@
-﻿/* 共通
+body{
+	font: 14px/1.9 'Noto Sans JP', メイリオ, Meiryo, sans-serif;
+	font-weight: 350;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #000;
+	background: #fff;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+
+/* 共通
 ------------------------------------------------------------*/
 h1, h2{
 	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
