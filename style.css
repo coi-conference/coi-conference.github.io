@@ -36,9 +36,16 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 /* ヘッダー
 ------------------------------------------------------------*/
+#header{
+	text-align: center;
+}
+
+#header h1{
+	padding-top: 60px;
+}
+
 #mainnav a{
 	color: #000;
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
 }
 
 
