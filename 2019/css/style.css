@@ -15,7 +15,7 @@ img,abbr,acronym,fieldset{border:0;}
 
 body{
 	font: 15px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
-	font-weight: 350;
+	font-weight: 400;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
 	color: #000;
@@ -123,7 +123,7 @@ background: ;
 table.brwsr2 th {
 vertical-align: middle;
 height: 100px;
-width: 124px;
+width: 180px;
 border-right: solid 1px #666;
 margin: 0;
 text-align: center;
@@ -169,7 +169,7 @@ border-top: solid 1px #34495e;
 }
 .col-2 {
     display: inline-block;
-    width: 350px;
+    width: 600px;
     /* border: solid 1px; */
 }
 
