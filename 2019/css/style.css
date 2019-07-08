@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font: 14px/1.9 'Noto Sans JP', メイリオ, Meiryo, sans-serif;
+	font: 15px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
 	font-weight: 350;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
@@ -55,7 +55,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* 共通
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: 'Modern Antiqua', 'Noto Sans JP', serif;
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
 }
 
 img{
@@ -108,7 +108,52 @@ section h3{
 	margin: 0 auto;
 }
 
+/* SEC02 PROGRAM*/
+table.brwsr2 {
+margin: 0 auto;
+width: 650px;
+border: none;
+border-top: solid 1px #666;
+border-bottom: solid 1px #666;
+border-collapse: separate;
+border-spacing: 0 10px;
+background: ;
+}
 
+table.brwsr2 th {
+vertical-align: middle;
+height: 100px;
+width: 180px;
+border-right: solid 1px #666;
+margin: 0;
+text-align: center;
+color: #333;
+font-weight: bold;
+}
+
+table.brwsr2 td.data {
+padding: 0;
+margin: 0;
+height: 100px;
+width: 100px;
+border: none;
+color: #666;
+text-align: left;
+vertical-align: middle;
+white-space: nowrap;
+overflow: hidden;
+}
+
+table.brwsr2 td:fst-child {
+padding: 0 0 0 10px;
+vertical-align: middle;
+}
+
+table.brwsr2 td.bar {
+height: 1px;
+width: 100%;
+border-top: solid 1px #34495e;
+}
 
 /* SEC02 Greeting*/
 {
@@ -124,58 +169,56 @@ section h3{
 }
 .col-2 {
     display: inline-block;
-    width: 350px;
+    width: 600px;
     /* border: solid 1px; */
 }
 
-
-/* SEC02 PROGRAM*/
-.imgbox {
-    display: grid;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -100;
-    width: 10000px;
-    height: 100%;
-    background-image: url('img/odaiba2.jpg');
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-    /* height: 100%; */
+/* SEC02 PROGRAM-ABSTRACT
+------------------------------------------------------------*/
+/*ボックス全体*/
+.accbox {
+    margin: 2em 0;
+    padding: 0;
+    max-width: 400px;/*最大幅*/
 }
 
-.home-bg {
-    background: #C0CCD6;
-    /* background: #d6d5da; */
+/*ラベル*/
+.accbox label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 11px 12px;
+    color :#000000;
+    font-weight: ;
+    background :#F0F8FF;
+    cursor :pointer;
+    transition: all 0.5s;
 }
 
-ul.program-list {
-    padding-inline-start: 0px;
-    margin-bottom: 0px;
+/*ラベルホバー時*/
+.accbox label:hover {
+    background :#CBDDFF;
 }
 
-ul.program-list > li {
-    list-style-type: none;
+/*チェックは隠す*/
+.accbox input {
+    display: none;
 }
 
-.program-table td {
+/*中身を非表示にしておく*/
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
 }
 
-table.program-table td, table.program-table th {
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
     padding: 5px;
-}
-
-.program-table td {
-    border: 1px #000 solid;
-    border-collapse: collapse;
-}
-
-table.program-table td:nth-child(1){
-    width: 120px;
-}
-
-.program-note {
-    font-size: 14px;
+    background: #FFFFFF;
+    opacity: 1;
 }
 
 
@@ -223,7 +266,7 @@ table.program-table td:nth-child(1){
 
 
 
-/* SEC05 COMPANY
+/* SEC05 ACCESS
 ------------------------------------------------------------*/
 #sec05 p{
 	margin-bottom: 5px;
@@ -511,53 +554,4 @@ table.program-table td:nth-child(1){
 	section h2{
 		margin: 55px auto;
 	}
-}
-
-
-/* 物は試し
-------------------------------------------------------------*/
-table.brwsr2 {
-margin: 0 auto;
-width: 650px;
-border: none;
-border-top: solid 1px #666;
-border-bottom: solid 1px #666;
-border-collapse: separate;
-border-spacing: 0 10px;
-background: ;
-}
-
-table.brwsr2 th {
-vertical-align: middle;
-height: 100px;
-width: 124px;
-border-right: solid 1px #666;
-margin: 0;
-text-align: center;
-color: #333;
-font-weight: bold;
-}
-
-table.brwsr2 td.data {
-padding: 0;
-margin: 0;
-height: 100px;
-width: 100px;
-border: none;
-color: #666;
-text-align: left;
-vertical-align: middle;
-white-space: nowrap;
-overflow: hidden;
-}
-
-table.brwsr2 td:fst-child {
-padding: 0 0 0 10px;
-vertical-align: middle;
-}
-
-table.brwsr2 td.bar {
-height: 1px;
-width: 100%;
-border-top: solid 1px #34495e;
 }
