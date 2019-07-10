@@ -169,7 +169,7 @@ border-top: solid 1px #34495e;
 }
 .col-2 {
     display: inline-block;
-    width: 400px;
+    width: 500px;
     /* border: solid 1px; */
 }
 
@@ -179,7 +179,7 @@ border-top: solid 1px #34495e;
 .accbox {
     margin: 2em 0;
     padding: 0;
-    max-width: 400px;/*最大幅*/
+    max-width: 800px;/*最大幅*/
 }
 
 /*ラベル*/
@@ -217,9 +217,14 @@ border-top: solid 1px #34495e;
 .cssacc:checked + .accshow {
     height: auto;
     padding: 5px;
+    color :#000000;
     background: #FFFFFF;
     opacity: 1;
 }
+
+
+
+
 
 
 /* SEC03 APPLY
