@@ -179,7 +179,7 @@ border-top: solid 1px #34495e;
 .accbox {
     margin: 2em 0;
     padding: 0;
-    max-width: 800px;/*最大幅*/
+    max-width: 1400px;/*最大幅*/
 }
 
 /*ラベル*/
@@ -194,7 +194,7 @@ border-top: solid 1px #34495e;
     transition: all 0.5s;
 }
 
-/*ラベルホバー時*/
+/*ラベルホバー*/
 .accbox label:hover {
     background :#CBDDFF;
 }
